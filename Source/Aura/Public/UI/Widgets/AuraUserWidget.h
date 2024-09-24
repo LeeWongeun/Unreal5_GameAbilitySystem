@@ -22,7 +22,6 @@ public:
 	TObjectPtr<UObject> WidgetController;
 
 protected:
-	//이게 실행되면 컨트롤러가 정상적으로 Set 되었음을 알 수 있다.
 	UFUNCTION(BlueprintImplementableEvent)
 	void WidgetControllerSet();
 };
